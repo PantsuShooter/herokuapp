@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UserTokenManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+//Setup instantiate ViewController
+    if ([[UserTokenManager tokenManager] isTokenExists]) {
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Products" bundle:nil];
+        self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"PNC"];
+    }
+
     return YES;
 }
 

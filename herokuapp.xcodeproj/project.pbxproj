@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B23E7646181DBA6109F2C73 /* libPods-herokuapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB8D897CC8E13B95DD27868 /* libPods-herokuapp.a */; };
+		274DBDEE21FDCB6600CE127F /* ReviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DBDED21FDCB6600CE127F /* ReviewCollectionViewCell.m */; };
 		276491EA21FAEC25005B6B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276491E921FAEC25005B6B18 /* AppDelegate.m */; };
-		276491ED21FAEC25005B6B18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276491EC21FAEC25005B6B18 /* ViewController.m */; };
-		276491F021FAEC25005B6B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276491EE21FAEC25005B6B18 /* Main.storyboard */; };
 		276491F221FAEC28005B6B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276491F121FAEC28005B6B18 /* Assets.xcassets */; };
 		276491F521FAEC28005B6B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276491F321FAEC28005B6B18 /* LaunchScreen.storyboard */; };
 		276491F821FAEC28005B6B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276491F721FAEC28005B6B18 /* main.m */; };
 		2764920221FAEC29005B6B18 /* herokuappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764920121FAEC29005B6B18 /* herokuappTests.m */; };
 		2764920D21FAEC29005B6B18 /* herokuappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764920C21FAEC29005B6B18 /* herokuappUITests.m */; };
+		2764921B21FAEE4E005B6B18 /* UserAuthentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2764921A21FAEE4E005B6B18 /* UserAuthentication.storyboard */; };
+		2764921E21FAF7E7005B6B18 /* UserAuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764921D21FAF7E7005B6B18 /* UserAuthenticationViewController.m */; };
+		2764922021FAF87F005B6B18 /* Products.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2764921F21FAF87F005B6B18 /* Products.storyboard */; };
+		2764922421FAFE40005B6B18 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764922321FAFE40005B6B18 /* LoginViewController.m */; };
+		2764922721FAFE61005B6B18 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764922621FAFE61005B6B18 /* SignupViewController.m */; };
+		2764922A21FB0081005B6B18 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764922921FB0081005B6B18 /* ServerManager.m */; };
+		2764922D21FB08E1005B6B18 /* UserTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764922C21FB08E1005B6B18 /* UserTokenManager.m */; };
+		2789591C21FD1666006150CD /* ReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789591B21FD1666006150CD /* ReviewModel.m */; };
+		278D313621FCC52B00406926 /* DetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D313521FCC52B00406926 /* DetailsTableViewController.m */; };
+		2799726821FE454900623102 /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2799726721FE454900623102 /* RatingView.m */; };
+		27ADFBF221FFB80700B1AB3C /* AppDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ADFBF121FFB80700B1AB3C /* AppDelegateManager.m */; };
+		27F3761E21FB224500372262 /* ProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3761D21FB224500372262 /* ProductsTableViewController.m */; };
+		27F3762121FB3C5E00372262 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3762021FB3C5E00372262 /* ProductTableViewCell.m */; };
+		27F3762421FB3F1900372262 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3762321FB3F1900372262 /* ProductModel.m */; };
+		48C0D1311F6171355195B305 /* libPods-herokuappUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E931A899881119D4123B623 /* libPods-herokuappUITests.a */; };
+		E52F845F945EFD3C347868EF /* libPods-herokuappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B587E08A14D399BEB90FD374 /* libPods-herokuappTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +51,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E931A899881119D4123B623 /* libPods-herokuappUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-herokuappUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15309FA430AE25B900BBC227 /* Pods-herokuappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herokuappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-herokuappTests/Pods-herokuappTests.release.xcconfig"; sourceTree = "<group>"; };
+		274DBDEC21FDCB6600CE127F /* ReviewCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewCollectionViewCell.h; sourceTree = "<group>"; };
+		274DBDED21FDCB6600CE127F /* ReviewCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewCollectionViewCell.m; sourceTree = "<group>"; };
 		276491E521FAEC25005B6B18 /* herokuapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = herokuapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276491E821FAEC25005B6B18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		276491E921FAEC25005B6B18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		276491EB21FAEC25005B6B18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		276491EC21FAEC25005B6B18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		276491EF21FAEC25005B6B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		276491F121FAEC28005B6B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		276491F421FAEC28005B6B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		276491F621FAEC28005B6B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +68,39 @@
 		2764920821FAEC29005B6B18 /* herokuappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = herokuappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2764920C21FAEC29005B6B18 /* herokuappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = herokuappUITests.m; sourceTree = "<group>"; };
 		2764920E21FAEC29005B6B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2764921A21FAEE4E005B6B18 /* UserAuthentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserAuthentication.storyboard; sourceTree = "<group>"; };
+		2764921C21FAF7E7005B6B18 /* UserAuthenticationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAuthenticationViewController.h; sourceTree = "<group>"; };
+		2764921D21FAF7E7005B6B18 /* UserAuthenticationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserAuthenticationViewController.m; sourceTree = "<group>"; };
+		2764921F21FAF87F005B6B18 /* Products.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Products.storyboard; sourceTree = "<group>"; };
+		2764922221FAFE40005B6B18 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2764922321FAFE40005B6B18 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2764922521FAFE61005B6B18 /* SignupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		2764922621FAFE61005B6B18 /* SignupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		2764922821FB0081005B6B18 /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		2764922921FB0081005B6B18 /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		2764922B21FB08E1005B6B18 /* UserTokenManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTokenManager.h; sourceTree = "<group>"; };
+		2764922C21FB08E1005B6B18 /* UserTokenManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTokenManager.m; sourceTree = "<group>"; };
+		2789591A21FD1666006150CD /* ReviewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewModel.h; sourceTree = "<group>"; };
+		2789591B21FD1666006150CD /* ReviewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewModel.m; sourceTree = "<group>"; };
+		278D313421FCC52B00406926 /* DetailsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailsTableViewController.h; path = "herokuapp/Selected product/DetailsTableViewController.h"; sourceTree = SOURCE_ROOT; };
+		278D313521FCC52B00406926 /* DetailsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailsTableViewController.m; path = "herokuapp/Selected product/DetailsTableViewController.m"; sourceTree = SOURCE_ROOT; };
+		2799726621FE454900623102 /* RatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingView.h; sourceTree = "<group>"; };
+		2799726721FE454900623102 /* RatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
+		27ADFBF021FFB80700B1AB3C /* AppDelegateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateManager.h; sourceTree = "<group>"; };
+		27ADFBF121FFB80700B1AB3C /* AppDelegateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateManager.m; sourceTree = "<group>"; };
+		27F3761C21FB224500372262 /* ProductsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsTableViewController.h; sourceTree = "<group>"; };
+		27F3761D21FB224500372262 /* ProductsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductsTableViewController.m; sourceTree = "<group>"; };
+		27F3761F21FB3C5E00372262 /* ProductTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		27F3762021FB3C5E00372262 /* ProductTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
+		27F3762221FB3F1900372262 /* ProductModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		27F3762321FB3F1900372262 /* ProductModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		42CD0195832898ED908516DD /* Pods-herokuapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herokuapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-herokuapp/Pods-herokuapp.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB8D897CC8E13B95DD27868 /* libPods-herokuapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-herokuapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA5B48672DDB01715233603 /* Pods-herokuapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herokuapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-herokuapp/Pods-herokuapp.release.xcconfig"; sourceTree = "<group>"; };
+		88F536B9862F2F917738BFF1 /* Pods-herokuappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herokuappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-herokuappUITests/Pods-herokuappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B990994461B50DDF9884A0 /* Pods-herokuappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herokuappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-herokuappTests/Pods-herokuappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B587E08A14D399BEB90FD374 /* libPods-herokuappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-herokuappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6EF33403C39B555D85557C /* Pods-herokuappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herokuappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-herokuappUITests/Pods-herokuappUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B23E7646181DBA6109F2C73 /* libPods-herokuapp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52F845F945EFD3C347868EF /* libPods-herokuappTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C0D1311F6171355195B305 /* libPods-herokuappUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +138,8 @@
 				2764920021FAEC29005B6B18 /* herokuappTests */,
 				2764920B21FAEC29005B6B18 /* herokuappUITests */,
 				276491E621FAEC25005B6B18 /* Products */,
+				65D6529BCAD19AFAFB0A8CE1 /* Pods */,
+				FAFD1F82D19216FBDAD98F04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +158,12 @@
 			children = (
 				276491E821FAEC25005B6B18 /* AppDelegate.h */,
 				276491E921FAEC25005B6B18 /* AppDelegate.m */,
-				276491EB21FAEC25005B6B18 /* ViewController.h */,
-				276491EC21FAEC25005B6B18 /* ViewController.m */,
-				276491EE21FAEC25005B6B18 /* Main.storyboard */,
+				27ADFBF321FFBE7E00B1AB3C /* Managers */,
+				278D312F21FCABA100406926 /* Selected product */,
+				2764922121FAFE13005B6B18 /* Authentication */,
+				27F3761A21FB21BA00372262 /* Products */,
+				27F3761B21FB21D400372262 /* Storyboard */,
 				276491F121FAEC28005B6B18 /* Assets.xcassets */,
-				276491F321FAEC28005B6B18 /* LaunchScreen.storyboard */,
 				276491F621FAEC28005B6B18 /* Info.plist */,
 				276491F721FAEC28005B6B18 /* main.m */,
 			);
@@ -132,6 +188,94 @@
 			path = herokuappUITests;
 			sourceTree = "<group>";
 		};
+		2764922121FAFE13005B6B18 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2764921C21FAF7E7005B6B18 /* UserAuthenticationViewController.h */,
+				2764921D21FAF7E7005B6B18 /* UserAuthenticationViewController.m */,
+				2764922221FAFE40005B6B18 /* LoginViewController.h */,
+				2764922321FAFE40005B6B18 /* LoginViewController.m */,
+				2764922521FAFE61005B6B18 /* SignupViewController.h */,
+				2764922621FAFE61005B6B18 /* SignupViewController.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		278D312F21FCABA100406926 /* Selected product */ = {
+			isa = PBXGroup;
+			children = (
+				2789591A21FD1666006150CD /* ReviewModel.h */,
+				2789591B21FD1666006150CD /* ReviewModel.m */,
+				278D313421FCC52B00406926 /* DetailsTableViewController.h */,
+				278D313521FCC52B00406926 /* DetailsTableViewController.m */,
+				274DBDEC21FDCB6600CE127F /* ReviewCollectionViewCell.h */,
+				274DBDED21FDCB6600CE127F /* ReviewCollectionViewCell.m */,
+				2799726621FE454900623102 /* RatingView.h */,
+				2799726721FE454900623102 /* RatingView.m */,
+			);
+			name = "Selected product";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		27ADFBF321FFBE7E00B1AB3C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2764922821FB0081005B6B18 /* ServerManager.h */,
+				2764922921FB0081005B6B18 /* ServerManager.m */,
+				2764922B21FB08E1005B6B18 /* UserTokenManager.h */,
+				2764922C21FB08E1005B6B18 /* UserTokenManager.m */,
+				27ADFBF021FFB80700B1AB3C /* AppDelegateManager.h */,
+				27ADFBF121FFB80700B1AB3C /* AppDelegateManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		27F3761A21FB21BA00372262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F3762221FB3F1900372262 /* ProductModel.h */,
+				27F3762321FB3F1900372262 /* ProductModel.m */,
+				27F3761C21FB224500372262 /* ProductsTableViewController.h */,
+				27F3761D21FB224500372262 /* ProductsTableViewController.m */,
+				27F3761F21FB3C5E00372262 /* ProductTableViewCell.h */,
+				27F3762021FB3C5E00372262 /* ProductTableViewCell.m */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		27F3761B21FB21D400372262 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2764921A21FAEE4E005B6B18 /* UserAuthentication.storyboard */,
+				2764921F21FAF87F005B6B18 /* Products.storyboard */,
+				276491F321FAEC28005B6B18 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		65D6529BCAD19AFAFB0A8CE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42CD0195832898ED908516DD /* Pods-herokuapp.debug.xcconfig */,
+				7EA5B48672DDB01715233603 /* Pods-herokuapp.release.xcconfig */,
+				A3B990994461B50DDF9884A0 /* Pods-herokuappTests.debug.xcconfig */,
+				15309FA430AE25B900BBC227 /* Pods-herokuappTests.release.xcconfig */,
+				88F536B9862F2F917738BFF1 /* Pods-herokuappUITests.debug.xcconfig */,
+				BA6EF33403C39B555D85557C /* Pods-herokuappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAFD1F82D19216FBDAD98F04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BB8D897CC8E13B95DD27868 /* libPods-herokuapp.a */,
+				B587E08A14D399BEB90FD374 /* libPods-herokuappTests.a */,
+				0E931A899881119D4123B623 /* libPods-herokuappUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2764921121FAEC29005B6B18 /* Build configuration list for PBXNativeTarget "herokuapp" */;
 			buildPhases = (
+				0759E9EF32413CE31542CCDA /* [CP] Check Pods Manifest.lock */,
 				276491E121FAEC25005B6B18 /* Sources */,
 				276491E221FAEC25005B6B18 /* Frameworks */,
 				276491E321FAEC25005B6B18 /* Resources */,
+				8B4ADD313BBBC2C04BAA774B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2764921421FAEC29005B6B18 /* Build configuration list for PBXNativeTarget "herokuappTests" */;
 			buildPhases = (
+				04681A4FFFCD8B587558BB95 /* [CP] Check Pods Manifest.lock */,
 				276491F921FAEC28005B6B18 /* Sources */,
 				276491FA21FAEC28005B6B18 /* Frameworks */,
 				276491FB21FAEC28005B6B18 /* Resources */,
@@ -174,6 +321,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2764921721FAEC29005B6B18 /* Build configuration list for PBXNativeTarget "herokuappUITests" */;
 			buildPhases = (
+				9453EFBE17734CC71379DE59 /* [CP] Check Pods Manifest.lock */,
 				2764920421FAEC29005B6B18 /* Sources */,
 				2764920521FAEC29005B6B18 /* Frameworks */,
 				2764920621FAEC29005B6B18 /* Resources */,
@@ -237,7 +385,8 @@
 			files = (
 				276491F521FAEC28005B6B18 /* LaunchScreen.storyboard in Resources */,
 				276491F221FAEC28005B6B18 /* Assets.xcassets in Resources */,
-				276491F021FAEC25005B6B18 /* Main.storyboard in Resources */,
+				2764922021FAF87F005B6B18 /* Products.storyboard in Resources */,
+				2764921B21FAEE4E005B6B18 /* UserAuthentication.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +406,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04681A4FFFCD8B587558BB95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-herokuappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0759E9EF32413CE31542CCDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-herokuapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4ADD313BBBC2C04BAA774B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-herokuapp/Pods-herokuapp-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-herokuapp/Pods-herokuapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9453EFBE17734CC71379DE59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-herokuappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		276491E121FAEC25005B6B18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276491ED21FAEC25005B6B18 /* ViewController.m in Sources */,
+				2764922A21FB0081005B6B18 /* ServerManager.m in Sources */,
+				2764922421FAFE40005B6B18 /* LoginViewController.m in Sources */,
 				276491F821FAEC28005B6B18 /* main.m in Sources */,
+				2799726821FE454900623102 /* RatingView.m in Sources */,
+				2789591C21FD1666006150CD /* ReviewModel.m in Sources */,
+				278D313621FCC52B00406926 /* DetailsTableViewController.m in Sources */,
+				27F3761E21FB224500372262 /* ProductsTableViewController.m in Sources */,
+				2764921E21FAF7E7005B6B18 /* UserAuthenticationViewController.m in Sources */,
 				276491EA21FAEC25005B6B18 /* AppDelegate.m in Sources */,
+				27F3762121FB3C5E00372262 /* ProductTableViewCell.m in Sources */,
+				27ADFBF221FFB80700B1AB3C /* AppDelegateManager.m in Sources */,
+				27F3762421FB3F1900372262 /* ProductModel.m in Sources */,
+				2764922721FAFE61005B6B18 /* SignupViewController.m in Sources */,
+				2764922D21FB08E1005B6B18 /* UserTokenManager.m in Sources */,
+				274DBDEE21FDCB6600CE127F /* ReviewCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +552,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		276491EE21FAEC25005B6B18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				276491EF21FAEC25005B6B18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		276491F321FAEC28005B6B18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,10 +677,13 @@
 		};
 		2764921221FAEC29005B6B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42CD0195832898ED908516DD /* Pods-herokuapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P92Y33YJZ;
 				INFOPLIST_FILE = herokuapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +696,13 @@
 		};
 		2764921321FAEC29005B6B18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA5B48672DDB01715233603 /* Pods-herokuapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4P92Y33YJZ;
 				INFOPLIST_FILE = herokuapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +715,7 @@
 		};
 		2764921521FAEC29005B6B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B990994461B50DDF9884A0 /* Pods-herokuappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +734,7 @@
 		};
 		2764921621FAEC29005B6B18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15309FA430AE25B900BBC227 /* Pods-herokuappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +753,7 @@
 		};
 		2764921821FAEC29005B6B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F536B9862F2F917738BFF1 /* Pods-herokuappUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = herokuappUITests/Info.plist;
@@ -518,6 +771,7 @@
 		};
 		2764921921FAEC29005B6B18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6EF33403C39B555D85557C /* Pods-herokuappUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = herokuappUITests/Info.plist;
