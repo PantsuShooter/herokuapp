@@ -53,10 +53,10 @@
     
     [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"token"];
     [[NSUserDefaults standardUserDefaults] synchronize];
-    NSString *token = [[NSUserDefaults standardUserDefaults]
-                       stringForKey:@"token"];
-    
-    NSLog(@"token:%@",token);
+//    NSString *token = [[NSUserDefaults standardUserDefaults]
+//                       stringForKey:@"token"];
+//
+//    NSLog(@"token:%@",token);
     
 }
 

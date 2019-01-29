@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0B23E7646181DBA6109F2C73 /* libPods-herokuapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB8D897CC8E13B95DD27868 /* libPods-herokuapp.a */; };
-		274DBDEE21FDCB6600CE127F /* ReviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 274DBDED21FDCB6600CE127F /* ReviewCollectionViewCell.m */; };
+		275E74BF21FFD5BC003B53C4 /* DetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E74B921FFD5BC003B53C4 /* DetailsTableViewController.m */; };
+		275E74C021FFD5BC003B53C4 /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E74BB21FFD5BC003B53C4 /* RatingView.m */; };
+		275E74C121FFD5BC003B53C4 /* ReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E74BD21FFD5BC003B53C4 /* ReviewModel.m */; };
+		275E74C221FFD5BC003B53C4 /* ReviewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E74BE21FFD5BC003B53C4 /* ReviewCollectionViewCell.m */; };
 		276491EA21FAEC25005B6B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276491E921FAEC25005B6B18 /* AppDelegate.m */; };
 		276491F221FAEC28005B6B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276491F121FAEC28005B6B18 /* Assets.xcassets */; };
 		276491F521FAEC28005B6B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276491F321FAEC28005B6B18 /* LaunchScreen.storyboard */; };
@@ -22,9 +25,6 @@
 		2764922721FAFE61005B6B18 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764922621FAFE61005B6B18 /* SignupViewController.m */; };
 		2764922A21FB0081005B6B18 /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764922921FB0081005B6B18 /* ServerManager.m */; };
 		2764922D21FB08E1005B6B18 /* UserTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2764922C21FB08E1005B6B18 /* UserTokenManager.m */; };
-		2789591C21FD1666006150CD /* ReviewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2789591B21FD1666006150CD /* ReviewModel.m */; };
-		278D313621FCC52B00406926 /* DetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D313521FCC52B00406926 /* DetailsTableViewController.m */; };
-		2799726821FE454900623102 /* RatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2799726721FE454900623102 /* RatingView.m */; };
 		27ADFBF221FFB80700B1AB3C /* AppDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 27ADFBF121FFB80700B1AB3C /* AppDelegateManager.m */; };
 		27F3761E21FB224500372262 /* ProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3761D21FB224500372262 /* ProductsTableViewController.m */; };
 		27F3762121FB3C5E00372262 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F3762021FB3C5E00372262 /* ProductTableViewCell.m */; };
@@ -53,8 +53,14 @@
 /* Begin PBXFileReference section */
 		0E931A899881119D4123B623 /* libPods-herokuappUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-herokuappUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15309FA430AE25B900BBC227 /* Pods-herokuappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-herokuappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-herokuappTests/Pods-herokuappTests.release.xcconfig"; sourceTree = "<group>"; };
-		274DBDEC21FDCB6600CE127F /* ReviewCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewCollectionViewCell.h; sourceTree = "<group>"; };
-		274DBDED21FDCB6600CE127F /* ReviewCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewCollectionViewCell.m; sourceTree = "<group>"; };
+		275E74B821FFD5BC003B53C4 /* DetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsTableViewController.h; sourceTree = "<group>"; };
+		275E74B921FFD5BC003B53C4 /* DetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsTableViewController.m; sourceTree = "<group>"; };
+		275E74BA21FFD5BC003B53C4 /* RatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingView.h; sourceTree = "<group>"; };
+		275E74BB21FFD5BC003B53C4 /* RatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
+		275E74BC21FFD5BC003B53C4 /* ReviewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewCollectionViewCell.h; sourceTree = "<group>"; };
+		275E74BD21FFD5BC003B53C4 /* ReviewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewModel.m; sourceTree = "<group>"; };
+		275E74BE21FFD5BC003B53C4 /* ReviewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewCollectionViewCell.m; sourceTree = "<group>"; };
+		275E74C321FFD5C9003B53C4 /* ReviewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewModel.h; sourceTree = "<group>"; };
 		276491E521FAEC25005B6B18 /* herokuapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = herokuapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		276491E821FAEC25005B6B18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		276491E921FAEC25005B6B18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,12 +86,6 @@
 		2764922921FB0081005B6B18 /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
 		2764922B21FB08E1005B6B18 /* UserTokenManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTokenManager.h; sourceTree = "<group>"; };
 		2764922C21FB08E1005B6B18 /* UserTokenManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTokenManager.m; sourceTree = "<group>"; };
-		2789591A21FD1666006150CD /* ReviewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReviewModel.h; sourceTree = "<group>"; };
-		2789591B21FD1666006150CD /* ReviewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewModel.m; sourceTree = "<group>"; };
-		278D313421FCC52B00406926 /* DetailsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DetailsTableViewController.h; path = "herokuapp/Selected product/DetailsTableViewController.h"; sourceTree = SOURCE_ROOT; };
-		278D313521FCC52B00406926 /* DetailsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DetailsTableViewController.m; path = "herokuapp/Selected product/DetailsTableViewController.m"; sourceTree = SOURCE_ROOT; };
-		2799726621FE454900623102 /* RatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatingView.h; sourceTree = "<group>"; };
-		2799726721FE454900623102 /* RatingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatingView.m; sourceTree = "<group>"; };
 		27ADFBF021FFB80700B1AB3C /* AppDelegateManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateManager.h; sourceTree = "<group>"; };
 		27ADFBF121FFB80700B1AB3C /* AppDelegateManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegateManager.m; sourceTree = "<group>"; };
 		27F3761C21FB224500372262 /* ProductsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductsTableViewController.h; sourceTree = "<group>"; };
@@ -131,6 +131,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		275E74B721FFD5A1003B53C4 /* Selected product */ = {
+			isa = PBXGroup;
+			children = (
+				275E74C321FFD5C9003B53C4 /* ReviewModel.h */,
+				275E74BD21FFD5BC003B53C4 /* ReviewModel.m */,
+				275E74BA21FFD5BC003B53C4 /* RatingView.h */,
+				275E74BB21FFD5BC003B53C4 /* RatingView.m */,
+				275E74B821FFD5BC003B53C4 /* DetailsTableViewController.h */,
+				275E74B921FFD5BC003B53C4 /* DetailsTableViewController.m */,
+				275E74BC21FFD5BC003B53C4 /* ReviewCollectionViewCell.h */,
+				275E74BE21FFD5BC003B53C4 /* ReviewCollectionViewCell.m */,
+			);
+			path = "Selected product";
+			sourceTree = "<group>";
+		};
 		276491DC21FAEC25005B6B18 = {
 			isa = PBXGroup;
 			children = (
@@ -158,8 +173,8 @@
 			children = (
 				276491E821FAEC25005B6B18 /* AppDelegate.h */,
 				276491E921FAEC25005B6B18 /* AppDelegate.m */,
+				275E74B721FFD5A1003B53C4 /* Selected product */,
 				27ADFBF321FFBE7E00B1AB3C /* Managers */,
-				278D312F21FCABA100406926 /* Selected product */,
 				2764922121FAFE13005B6B18 /* Authentication */,
 				27F3761A21FB21BA00372262 /* Products */,
 				27F3761B21FB21D400372262 /* Storyboard */,
@@ -199,22 +214,6 @@
 				2764922621FAFE61005B6B18 /* SignupViewController.m */,
 			);
 			path = Authentication;
-			sourceTree = "<group>";
-		};
-		278D312F21FCABA100406926 /* Selected product */ = {
-			isa = PBXGroup;
-			children = (
-				2789591A21FD1666006150CD /* ReviewModel.h */,
-				2789591B21FD1666006150CD /* ReviewModel.m */,
-				278D313421FCC52B00406926 /* DetailsTableViewController.h */,
-				278D313521FCC52B00406926 /* DetailsTableViewController.m */,
-				274DBDEC21FDCB6600CE127F /* ReviewCollectionViewCell.h */,
-				274DBDED21FDCB6600CE127F /* ReviewCollectionViewCell.m */,
-				2799726621FE454900623102 /* RatingView.h */,
-				2799726721FE454900623102 /* RatingView.m */,
-			);
-			name = "Selected product";
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		27ADFBF321FFBE7E00B1AB3C /* Managers */ = {
@@ -505,18 +504,18 @@
 				2764922A21FB0081005B6B18 /* ServerManager.m in Sources */,
 				2764922421FAFE40005B6B18 /* LoginViewController.m in Sources */,
 				276491F821FAEC28005B6B18 /* main.m in Sources */,
-				2799726821FE454900623102 /* RatingView.m in Sources */,
-				2789591C21FD1666006150CD /* ReviewModel.m in Sources */,
-				278D313621FCC52B00406926 /* DetailsTableViewController.m in Sources */,
 				27F3761E21FB224500372262 /* ProductsTableViewController.m in Sources */,
+				275E74BF21FFD5BC003B53C4 /* DetailsTableViewController.m in Sources */,
 				2764921E21FAF7E7005B6B18 /* UserAuthenticationViewController.m in Sources */,
 				276491EA21FAEC25005B6B18 /* AppDelegate.m in Sources */,
 				27F3762121FB3C5E00372262 /* ProductTableViewCell.m in Sources */,
 				27ADFBF221FFB80700B1AB3C /* AppDelegateManager.m in Sources */,
 				27F3762421FB3F1900372262 /* ProductModel.m in Sources */,
 				2764922721FAFE61005B6B18 /* SignupViewController.m in Sources */,
+				275E74C021FFD5BC003B53C4 /* RatingView.m in Sources */,
 				2764922D21FB08E1005B6B18 /* UserTokenManager.m in Sources */,
-				274DBDEE21FDCB6600CE127F /* ReviewCollectionViewCell.m in Sources */,
+				275E74C121FFD5BC003B53C4 /* ReviewModel.m in Sources */,
+				275E74C221FFD5BC003B53C4 /* ReviewCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

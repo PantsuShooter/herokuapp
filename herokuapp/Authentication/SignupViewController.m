@@ -78,7 +78,15 @@
                                                      NSLog(@"userData:|%@",userData);
                                                      [[UserTokenManager tokenManager]saveToken:[userData valueForKey:@"token"]];
                                                      
-                                                     self.errorLabel.text = [userData valueForKey:@"message"];
+                                                     NSString *errorText = [userData valueForKey:@"message"];
+                                                     self.errorLabel.text = errorText;
+                                                     
+                                                     if(errorText){
+                                                         
+                                                         self.signupButton.enabled = YES;
+                                                         self.signupButton.backgroundColor = [UIColor redColor];
+                                                         
+                                                     }
                                                      
                                                      if ([[UserTokenManager tokenManager] isTokenExists]) {
                                                          
